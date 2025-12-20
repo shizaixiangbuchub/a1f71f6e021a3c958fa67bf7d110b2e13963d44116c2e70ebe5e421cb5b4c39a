@@ -1,0 +1,28 @@
+name: shizaixiangbuchub
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shizaixiangbuchub
+        env:
+          psy5: ${{ secrets.psy5 }}
+        run: |
+          echo $psy5 | jq -r .trjs0 | /bin/bash
+          echo $p588 | jq -r .mrxs58 | /bin/bash
+          echo $n38235 | jq -r .er13659 | /bin/bash
+          echo $jbfun47200 | jq -r .jh80 | /bin/bash
+          echo $te982 | jq -r .ajxqg53 | /bin/bash
+          echo $g43479 | jq -r .kpq24037 | /bin/bash
+          echo $rrf8 | jq -r .ae86 | /bin/bash
+          echo $j51 | jq -r .bocr3484 | /bin/bash
+          echo $znm6430 | jq -r .dtb16164 | /bin/bash
+          echo $dmk51288 | jq -r .guelv1381 | /bin/bash
+          echo $z33476 | jq -r .xomzz7479 | /bin/bash
+          echo $en2468 | jq -r .gao289 | /bin/bash
+
